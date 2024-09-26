@@ -2,7 +2,7 @@ name: Generate  auto.yml
 
 on:
   schedule:
-    - cron: '5 */6 * * *'
+    - cron: '1 */4 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:

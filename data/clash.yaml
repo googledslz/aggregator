@@ -5,103 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国-首尔-1A, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-2-1B, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 欧洲-法兰克福-1-1B, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-首尔-1B, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-2-1A, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-2-1A, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇪🇺 欧洲-伦敦-1-1B, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇪🇺 欧洲-伦敦-1-1A, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡-1-1A, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a624eaa-522b-4cd9-b2b6-4368dac1229a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-1-1A, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-1-1A, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-1-1B, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 北美-US-圣何塞-2-1B, server: oracle-amd-san-jose2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: san-jose2.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国-2-1B, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 欧洲-法兰克福-1-1A, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-1-1B, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡-1-1B, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 89280bc1-7801-4044-98a4-f83249f50404, auth: 89280bc1-7801-4044-98a4-f83249f50404, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 北美-US-圣何塞-2-1A, server: oracle-amd-san-jose2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 09124dbd-6340-419c-afb3-b1d4e3f07b48, auth: 09124dbd-6340-419c-afb3-b1d4e3f07b48, sni: san-jose2.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-1, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国-1, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 北美-US-圣何塞-2, server: oracle-amd-san-jose2.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: san-jose2.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡-1, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本-2, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 365a5421-d9ea-488d-8b6e-69954b443efa, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-2, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2a3fa41f-c6cd-4c34-a8f1-e2b661587efb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-首尔, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 欧洲-法兰克福-1, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇺 欧洲-伦敦-1, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: fc0fe41d-c124-45c1-81da-05e331bf03cc, auth: fc0fe41d-c124-45c1-81da-05e331bf03cc, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a624eaa-522b-4cd9-b2b6-4368dac1229a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,26 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -150,77 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -236,26 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国-首尔-1A
-      - 🇯🇵 日本-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1B
-      - 🇰🇷 韩国-首尔-1B
-      - 🇯🇵 日本-2-1A
-      - 🇰🇷 韩国-2-1A
-      - 🇪🇺 欧洲-伦敦-1-1B
-      - 🇪🇺 欧洲-伦敦-1-1A
-      - 🇸🇬 新加坡-1-1A
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-1-1A
-      - 🇯🇵 日本-1-1A
-      - 🇰🇷 韩国-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1B
-      - 🇰🇷 韩国-2-1B
-      - 🇩🇪 欧洲-法兰克福-1-1A
-      - 🇯🇵 日本-1-1B
-      - 🇸🇬 新加坡-1-1B
-      - 🇺🇸 北美-US-圣何塞-2-1A
+      - 🇯🇵 日本-1
+      - 🇰🇷 韩国-1
+      - 🇺🇸 北美-US-圣何塞-2
+      - 🇸🇬 新加坡-1
+      - 🇯🇵 日本-2
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇰🇷 韩国-2
       - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-首尔
+      - 🇩🇪 欧洲-法兰克福-1
+      - 🇪🇺 欧洲-伦敦-1
+      - 🇰🇷 韩国-三网优化2-1A
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

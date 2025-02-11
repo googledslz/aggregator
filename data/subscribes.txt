@@ -1,4 +1,4 @@
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=cfa6997390b6243dca6c9132d644d1ca
-https://lanmaoyun.icu/api/v1/client/subscribe?token=ac4c98ee2d152e9c05ea879fbec023bd
-https://lanmaoyun.icu/api/v1/client/subscribe?token=83a8ae4a29d9db3bfe4c64b2f82bfe6f
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=b93cb5b5bb7b3645e5e9c5a6aac2e12f
+https://lanmaoyun.icu/api/v1/client/subscribe?token=124f55caeb9df738c473276735e7b424
 https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=78a35e8a65876f51b716830cd866f3d6
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=cfa6997390b6243dca6c9132d644d1ca

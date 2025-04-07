@@ -13,6 +13,11 @@
 
 ## 使用方法
 > 略，自行探索。我才不会告诉你入口是 `collect.py` 和 `process.py`
+>
+> 
+## 使用方法
+
+略，自行探索。我才不会告诉你入口是 collect.py 和 process.py。强烈建议使用后者，前者只是个小玩具，配置参考 subscribe/config/config.default.json
 
 ## 共享订阅
 Clash: https://imperialb.in/r/mmhhcojp

@@ -30,6 +30,7 @@ V2Ray: https://imperialb.in/r/xdsv0kpz
 共享订阅，可能使用人数较多，建议使用负载均衡模式
 
 Clash订阅：https://imperialb.in/r/gynacebx 『推荐使用基于 mihomo 内核的客户端』
+
 V2Ray订阅：https://imperialb.in/r/eav0dzoa
 
 ## 免责申明

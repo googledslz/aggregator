@@ -5,455 +5,459 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国 纽约2-1D, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇯🇵 日本02-1E, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇯🇵 日本04-1D, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇹🇼 台湾01-1A, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇭🇰 香港03-1B, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1B, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇭🇰 香港03-1F, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇯🇵 日本01-1D, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇯🇵 日本04-1C, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fac36e71-e522-43ba-83f4-20493666fbf6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 67ec5b9e-1ee2-4031-adb8-8b3039f44da8, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02-1E, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
   - {name: 🇺🇸 美国 纽约01-1C, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇯🇵 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇭🇰 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇹🇼 台湾 1-1F, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇭🇰 香港01-1F, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇯🇵 日本03-1G, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2d9084cb-cf69-441d-b635-1433092bc485, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d82fae7a-d928-411c-97bf-5c12af5f289e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港03-1G, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇭🇰 香港01-1C, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇭🇰 香港02-1B, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ac557604-a2dc-431f-bbd1-134d94496d69, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 1-1G, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 49efed04-dad6-4a6f-99c7-9c67a4ff250a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 20710d92-33fb-47c1-ad55-51147923a795, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d7ddd655-f650-4d08-925c-be49384878a2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1A, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇯🇵 日本03-1F, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇯🇵 日本04-1A, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dad817c7-c4d4-48da-94cb-1b878e7c50c4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5354612e-8220-4b32-852a-1c4411b514e0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1F, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-2E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e22c78eb-3b36-4aa1-8cc5-a3d08e620aa1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本02-1C, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-2D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 74b38cbd-f3e4-4bc2-a601-7bbc8e95dc23, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本03-1D, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇹🇼 台湾 1-1E, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 67ec5b9e-1ee2-4031-adb8-8b3039f44da8, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本04-1E, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇹🇼 台湾 1-1A, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇭🇰 香港03-1A, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 41ff5fc5-e9b3-412b-84fc-e693e7868b77, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1E, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-2A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7d0ef3e7-0460-433b-9796-3af9b8bdc410, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
   - {name: 🇯🇵 日本02-1F, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 23fa9b18-a074-42b8-af9c-837f17855396, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e99e3aa4-2544-4ef7-946e-c3d74556ab1d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-2A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 38f35972-2bf4-4c16-9ae9-668def0a9bba, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本03-1A, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇭🇰 香港02-1E, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇭🇰 香港01-1G, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇯🇵 日本01-1G, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1C, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3509f39f-e12a-4440-b872-d78ddb96282b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1A, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇯🇵 日本03-1C, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇯🇵 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇹🇼 台湾 1-1B, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c6e9dee8-f42d-4e04-a226-e18cfe81ec79, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02-1A, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6bbbb60e-8a45-409a-89b4-1831b0a0a747, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾01-1C, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇭🇰 香港02-1G, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fe92dfd1-7676-4ee4-a72d-6eb1100b437b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4f332721-d88f-4963-8522-a791a983caf3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本01-1A, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇭🇰 香港03-1E, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇹🇼 台湾01-1B, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇹🇼 台湾 1-1C, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇯🇵 日本01-1C, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇭🇰 香港02-1F, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1B, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1E, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇭🇰 香港03-1D, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇭🇰 香港01-1D, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇭🇰 香港01-1E, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 62a24f39-f491-4131-8100-2b006e309fbb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 51e7302a-9758-44ea-a870-9713a9cd8082, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾01-1E, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇯🇵 日本02-1D, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 322305a5-245b-4087-8b92-d2ed6320d1a3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02-1C, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇭🇰 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
-  - {name: 🇯🇵 日本01-1B, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇯🇵 日本03-1A, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
   - {name: 🇺🇸 美国 纽约2-1F, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ddfd4486-e485-4b9b-8c95-9e0d4071faa7, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1D, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇹🇼 台湾01-1G, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇯🇵 日本01-1E, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇹🇼 台湾01-1D, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇯🇵 日本04-1F, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1N, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 41ff5fc5-e9b3-412b-84fc-e693e7868b77, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港01-1B, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1P, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 40f3177c-c7f9-4190-b352-069540581615, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾01-1D, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1U, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2d9084cb-cf69-441d-b635-1433092bc485, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1G, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇹🇼 台湾01-1B, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇭🇰 香港02-1C, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇯🇵 日本03-1D, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1C, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇹🇼 台湾01-1E, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1L, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d82fae7a-d928-411c-97bf-5c12af5f289e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇯🇵 日本01-1D, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇯🇵 日本02-1D, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇯🇵 日本03-1C, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1D, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇭🇰 香港03-1A, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇯🇵 日本01-1G, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇯🇵 日本04-1A, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇯🇵 日本03-1B, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇹🇼 台湾 1-1C, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1G, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇭🇰 香港01-1E, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇯🇵 日本03-1F, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1Y, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b2508a2c-0490-4f85-b833-f11fd450d380, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1D, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇹🇼 台湾 1-1D, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇹🇼 台湾01-1A, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fac36e71-e522-43ba-83f4-20493666fbf6, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1-1E, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1E, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇯🇵 日本02-1C, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇭🇰 香港02-1G, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1B, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 51e7302a-9758-44ea-a870-9713a9cd8082, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港01-1F, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇭🇰 香港03-1D, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1H, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e22c78eb-3b36-4aa1-8cc5-a3d08e620aa1, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港03-1E, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-2B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6bbbb60e-8a45-409a-89b4-1831b0a0a747, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 38f35972-2bf4-4c16-9ae9-668def0a9bba, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本03-1G, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇹🇼 台湾01-1C, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-2D, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e99e3aa4-2544-4ef7-946e-c3d74556ab1d, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1-1F, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1R, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 49efed04-dad6-4a6f-99c7-9c67a4ff250a, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本03-1E, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 20710d92-33fb-47c1-ad55-51147923a795, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 322305a5-245b-4087-8b92-d2ed6320d1a3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本01-1E, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇯🇵 日本04-1B, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
   - {name: 🇭🇰 香港03-1C, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1Q, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6268eb86-ec9c-4d41-96fb-07471f693ef4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-2B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 807c1660-9f28-4062-889a-1789f505f362, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾01-1F, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇯🇵 日本03-1B, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇯🇵 日本02-1G, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇺🇸 美国 纽约01-1G, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇯🇵 日本04-1B, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
-  - {name: 🇺🇸 美国 纽约2-1G, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇭🇰 香港02-1D, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
-  - {name: 🇯🇵 日本04-1G, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1G, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7d0ef3e7-0460-433b-9796-3af9b8bdc410, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本03-1E, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: d24c56d2-92e8-4f97-bb37-36e910db7243, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-2C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b2508a2c-0490-4f85-b833-f11fd450d380, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1M, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e93f92da-4247-4d6a-96a9-7b470a646307, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 40f3177c-c7f9-4190-b352-069540581615, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本01-1F, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
-  - {name: 🇹🇼 台湾 1-1D, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-2C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ddfd4486-e485-4b9b-8c95-9e0d4071faa7, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港03-1B, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1A, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇯🇵 日本04-1C, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇭🇰 香港03-1F, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇭🇰 香港01-1G, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1S, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dad817c7-c4d4-48da-94cb-1b878e7c50c4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 74b38cbd-f3e4-4bc2-a601-7bbc8e95dc23, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02-1A, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇯🇵 日本01-1C, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-2F, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5703e0b2-1c51-4667-be35-9413ff11631e, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本04-1G, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇹🇼 台湾 1-1B, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1x, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 62a24f39-f491-4131-8100-2b006e309fbb, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1-1A, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇯🇵 日本02-1E, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇹🇼 台湾01-1F, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1J, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3509f39f-e12a-4440-b872-d78ddb96282b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1F, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1O, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c6e9dee8-f42d-4e04-a226-e18cfe81ec79, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本01-1A, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1K, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 807c1660-9f28-4062-889a-1789f505f362, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1Z, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5354612e-8220-4b32-852a-1c4411b514e0, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02-1D, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇭🇰 香港03-1G, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇹🇼 台湾01-1G, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1B, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇭🇰 香港02-1B, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇭🇰 香港01-1C, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 3a83a379-1ac4-4885-979d-a6be139f96f6, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-2E, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d7ddd655-f650-4d08-925c-be49384878a2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1I, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4f332721-d88f-4963-8522-a791a983caf3, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02-1F, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇺🇸 美国 纽约2-1A, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6268eb86-ec9c-4d41-96fb-07471f693ef4, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 1-1G, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇭🇰 香港01-1A, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: d7903e73-12dc-431f-a9ac-edd40a8b54a5, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 23fa9b18-a074-42b8-af9c-837f17855396, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1T, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ac557604-a2dc-431f-bbd1-134d94496d69, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本02-1G, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: c16e624a-6bce-458d-8fb9-2601203c06eb, udp: true}
+  - {name: 🇺🇸 美国 纽约01-1E, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1W, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fe92dfd1-7676-4ee4-a72d-6eb1100b437b, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本04-1E, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 54abc6ea-0a38-495e-a21b-3b56a72f2493, udp: true}
+  - {name: 🇯🇵 日本01-1B, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 9c3e0de0-21e5-4105-87be-c1286c2eba98, udp: true}
+  - {name: 🇭🇰 香港01-1D, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
+  - {name: 🇯🇵 日本04-1F, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: af59c574-415f-4301-b137-1bddefda8f71, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1V, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e93f92da-4247-4d6a-96a9-7b470a646307, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本04-1D, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 2b35b6c4-2b18-454c-b0f3-598bca71b1a5, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -472,494 +476,498 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港02-1E
+      - 🇭🇰 香港01-1B
+      - 🇹🇼 台湾01-1D
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇹🇼 台湾01-1E
+      - 🇭🇰 香港03-1A
+      - 🇹🇼 台湾 1-1C
+      - 🇭🇰 香港01-1E
+      - 🇹🇼 台湾 1-1D
       - 🇹🇼 台湾01-1A
+      - 🇹🇼 台湾 1-1E
+      - 🇭🇰 香港02-1G
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇭🇰 香港03-1E
+      - 🇹🇼 台湾01-1C
+      - 🇹🇼 台湾 1-1F
+      - 🇭🇰 香港03-1C
       - 🇭🇰 香港03-1B
       - 🇭🇰 香港03-1F
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇹🇼 台湾 1-1G
-      - 🇹🇼 台湾 1-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇭🇰 香港02-1E
       - 🇭🇰 香港01-1G
-      - 🇹🇼 台湾 1-1B
       - 🇭🇰 香港02-1A
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇭🇰 香港02-1F
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇹🇼 台湾01-1E
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇹🇼 台湾01-1G
-      - 🇹🇼 台湾01-1D
-      - 🇭🇰 香港03-1C
+      - 🇹🇼 台湾 1-1B
+      - 🇹🇼 台湾 1-1A
       - 🇹🇼 台湾01-1F
       - 🇭🇰 香港02-1D
-      - 🇹🇼 台湾 1-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇭🇰 香港02-1F
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港01-1D
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -975,114 +983,115 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 纽约2-1D
-      - 🇯🇵 日本02-1E
-      - 🇯🇵 日本04-1D
-      - 🇹🇼 台湾01-1A
-      - 🇭🇰 香港03-1B
-      - 🇺🇸 美国 纽约01-1B
-      - 🇭🇰 香港03-1F
-      - 🇯🇵 日本01-1D
-      - 🇯🇵 日本04-1C
-      - 🇰🇷 韩国-三网优化2-1H
-      - 🇺🇸 美国 纽约01-1C
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港01-1B
-      - 🇹🇼 台湾 1-1F
-      - 🇭🇰 香港01-1F
-      - 🇯🇵 日本03-1G
-      - 🇰🇷 韩国-三网优化2-1V
-      - 🇰🇷 韩国-三网优化2-1T
-      - 🇭🇰 香港03-1G
-      - 🇭🇰 香港01-1C
-      - 🇭🇰 香港02-1B
-      - 🇰🇷 韩国-三网优化2-1P
-      - 🇹🇼 台湾 1-1G
-      - 🇰🇷 韩国-三网优化2-1E
-      - 🇰🇷 韩国-三网优化2-1A
-      - 🇰🇷 韩国-三网优化2-1I
-      - 🇺🇸 美国 纽约2-1A
-      - 🇯🇵 日本03-1F
-      - 🇯🇵 日本04-1A
-      - 🇰🇷 韩国-三网优化2-1R
-      - 🇰🇷 韩国-三网优化2-1U
-      - 🇺🇸 美国 纽约01-1F
-      - 🇰🇷 韩国-三网优化2-2E
-      - 🇯🇵 日本02-1C
-      - 🇰🇷 韩国-三网优化2-2D
-      - 🇯🇵 日本03-1D
-      - 🇹🇼 台湾 1-1E
-      - 🇰🇷 韩国-三网优化2-1Y
-      - 🇯🇵 日本04-1E
-      - 🇹🇼 台湾 1-1A
-      - 🇭🇰 香港03-1A
-      - 🇰🇷 韩国-三网优化2-1L
-      - 🇺🇸 美国 纽约01-1E
-      - 🇯🇵 日本02-1F
-      - 🇰🇷 韩国-三网优化2-1x
-      - 🇰🇷 韩国-三网优化2-1J
-      - 🇰🇷 韩国-三网优化2-2A
-      - 🇯🇵 日本03-1A
-      - 🇭🇰 香港02-1E
-      - 🇭🇰 香港01-1G
-      - 🇯🇵 日本01-1G
-      - 🇺🇸 美国 纽约2-1C
-      - 🇰🇷 韩国-三网优化2-1W
-      - 🇺🇸 美国 纽约01-1A
-      - 🇯🇵 日本03-1C
-      - 🇯🇵 日本02-1A
-      - 🇹🇼 台湾 1-1B
-      - 🇰🇷 韩国-三网优化2-1B
-      - 🇭🇰 香港02-1A
-      - 🇰🇷 韩国-三网优化2-1K
-      - 🇹🇼 台湾01-1C
-      - 🇭🇰 香港02-1G
-      - 🇰🇷 韩国-三网优化2-1D
-      - 🇰🇷 韩国-三网优化2-1C
-      - 🇯🇵 日本01-1A
-      - 🇭🇰 香港03-1E
-      - 🇹🇼 台湾01-1B
-      - 🇹🇼 台湾 1-1C
-      - 🇯🇵 日本01-1C
-      - 🇭🇰 香港02-1F
-      - 🇺🇸 美国 纽约2-1B
-      - 🇺🇸 美国 纽约2-1E
-      - 🇭🇰 香港03-1D
-      - 🇭🇰 香港01-1D
-      - 🇭🇰 香港01-1E
-      - 🇰🇷 韩国-三网优化2-1N
-      - 🇰🇷 韩国-三网优化2-1O
-      - 🇹🇼 台湾01-1E
-      - 🇯🇵 日本02-1D
-      - 🇰🇷 韩国-三网优化2-1Z
-      - 🇭🇰 香港02-1C
-      - 🇭🇰 香港01-1A
-      - 🇯🇵 日本01-1B
-      - 🇺🇸 美国 纽约2-1F
-      - 🇰🇷 韩国-三网优化2-1S
-      - 🇺🇸 美国 纽约01-1D
-      - 🇹🇼 台湾01-1G
-      - 🇯🇵 日本01-1E
-      - 🇹🇼 台湾01-1D
-      - 🇯🇵 日本04-1F
-      - 🇭🇰 香港03-1C
-      - 🇰🇷 韩国-三网优化2-1Q
-      - 🇰🇷 韩国-三网优化2-2B
-      - 🇹🇼 台湾01-1F
-      - 🇯🇵 日本03-1B
-      - 🇯🇵 日本02-1G
-      - 🇺🇸 美国 纽约01-1G
-      - 🇯🇵 日本04-1B
-      - 🇺🇸 美国 纽约2-1G
-      - 🇭🇰 香港02-1D
-      - 🇯🇵 日本04-1G
-      - 🇰🇷 韩国-三网优化2-1G
-      - 🇯🇵 日本03-1E
-      - 🇰🇷 韩国-三网优化2-2C
       - 🇰🇷 韩国-三网优化2-1M
-      - 🇰🇷 韩国-三网优化2-1F
-      - 🇯🇵 日本01-1F
+      - 🇭🇰 香港02-1E
+      - 🇺🇸 美国 纽约01-1C
+      - 🇰🇷 韩国-三网优化2-2A
+      - 🇯🇵 日本02-1A
+      - 🇯🇵 日本02-1F
+      - 🇯🇵 日本03-1A
+      - 🇺🇸 美国 纽约2-1F
+      - 🇰🇷 韩国-三网优化2-1N
+      - 🇭🇰 香港01-1B
+      - 🇰🇷 韩国-三网优化2-1P
+      - 🇹🇼 台湾01-1D
+      - 🇰🇷 韩国-三网优化2-1U
+      - 🇺🇸 美国 纽约2-1G
+      - 🇹🇼 台湾01-1B
+      - 🇭🇰 香港02-1C
+      - 🇯🇵 日本03-1D
+      - 🇺🇸 美国 纽约2-1C
+      - 🇹🇼 台湾01-1E
+      - 🇰🇷 韩国-三网优化2-1L
+      - 🇯🇵 日本02-1B
+      - 🇯🇵 日本01-1D
+      - 🇯🇵 日本02-1D
+      - 🇯🇵 日本03-1C
+      - 🇺🇸 美国 纽约2-1D
+      - 🇭🇰 香港03-1A
+      - 🇯🇵 日本01-1G
+      - 🇯🇵 日本04-1A
+      - 🇯🇵 日本03-1B
+      - 🇹🇼 台湾 1-1C
+      - 🇺🇸 美国 纽约01-1G
+      - 🇭🇰 香港01-1E
+      - 🇯🇵 日本03-1F
+      - 🇰🇷 韩国-三网优化2-1Y
+      - 🇺🇸 美国 纽约01-1D
       - 🇹🇼 台湾 1-1D
+      - 🇹🇼 台湾01-1A
+      - 🇰🇷 韩国-三网优化2-1G
+      - 🇹🇼 台湾 1-1E
+      - 🇺🇸 美国 纽约2-1E
+      - 🇯🇵 日本02-1C
+      - 🇭🇰 香港02-1G
+      - 🇺🇸 美国 纽约2-1B
+      - 🇰🇷 韩国-三网优化2-1D
+      - 🇭🇰 香港01-1F
+      - 🇭🇰 香港03-1D
+      - 🇰🇷 韩国-三网优化2-1H
+      - 🇭🇰 香港03-1E
+      - 🇰🇷 韩国-三网优化2-2B
+      - 🇰🇷 韩国-三网优化2-1F
+      - 🇯🇵 日本03-1G
+      - 🇹🇼 台湾01-1C
+      - 🇰🇷 韩国-三网优化2-2D
+      - 🇹🇼 台湾 1-1F
+      - 🇰🇷 韩国-三网优化2-1R
+      - 🇯🇵 日本03-1E
+      - 🇰🇷 韩国-三网优化2-1Q
+      - 🇰🇷 韩国-三网优化2-1C
+      - 🇯🇵 日本01-1E
+      - 🇯🇵 日本04-1B
+      - 🇭🇰 香港03-1C
+      - 🇯🇵 日本01-1F
+      - 🇰🇷 韩国-三网优化2-2C
+      - 🇭🇰 香港03-1B
+      - 🇺🇸 美国 纽约01-1A
+      - 🇯🇵 日本04-1C
+      - 🇭🇰 香港03-1F
+      - 🇭🇰 香港01-1G
+      - 🇰🇷 韩国-三网优化2-1S
+      - 🇰🇷 韩国-三网优化2-1E
+      - 🇭🇰 香港02-1A
+      - 🇯🇵 日本01-1C
+      - 🇰🇷 韩国-三网优化2-2F
+      - 🇯🇵 日本04-1G
+      - 🇹🇼 台湾 1-1B
+      - 🇰🇷 韩国-三网优化2-1x
+      - 🇹🇼 台湾 1-1A
+      - 🇯🇵 日本02-1E
+      - 🇹🇼 台湾01-1F
+      - 🇰🇷 韩国-三网优化2-1J
+      - 🇺🇸 美国 纽约01-1F
+      - 🇰🇷 韩国-三网优化2-1O
+      - 🇯🇵 日本01-1A
+      - 🇰🇷 韩国-三网优化2-1K
+      - 🇰🇷 韩国-三网优化2-1Z
+      - 🇭🇰 香港02-1D
+      - 🇭🇰 香港03-1G
+      - 🇹🇼 台湾01-1G
+      - 🇺🇸 美国 纽约01-1B
+      - 🇭🇰 香港02-1B
+      - 🇭🇰 香港01-1C
+      - 🇰🇷 韩国-三网优化2-2E
+      - 🇰🇷 韩国-三网优化2-1I
+      - 🇭🇰 香港02-1F
+      - 🇺🇸 美国 纽约2-1A
+      - 🇰🇷 韩国-三网优化2-1A
+      - 🇹🇼 台湾 1-1G
+      - 🇭🇰 香港01-1A
+      - 🇰🇷 韩国-三网优化2-1B
+      - 🇰🇷 韩国-三网优化2-1T
+      - 🇯🇵 日本02-1G
+      - 🇺🇸 美国 纽约01-1E
+      - 🇰🇷 韩国-三网优化2-1W
+      - 🇯🇵 日本04-1E
+      - 🇯🇵 日本01-1B
+      - 🇭🇰 香港01-1D
+      - 🇯🇵 日本04-1F
+      - 🇰🇷 韩国-三网优化2-1V
+      - 🇯🇵 日本04-1D
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

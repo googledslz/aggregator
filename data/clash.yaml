@@ -5,14 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5e571569-72fa-4422-a0d0-1e82256cb6ab, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6a1fbb95-adc2-4139-a74f-893fb0099af2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1C, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 028981af-eaf3-4597-81d7-7598b9d66e95, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1B, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6a1fbb95-adc2-4139-a74f-893fb0099af2, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-三网优化2-1A, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5e571569-72fa-4422-a0d0-1e82256cb6ab, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: ♻️ 自动选择
@@ -20,6 +22,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: 🎥 NETFLIX
@@ -28,6 +31,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: ⛔️ 广告拦截
@@ -48,6 +52,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: 🌏 国内媒体
@@ -60,6 +65,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: 📲 电报信息
@@ -67,6 +73,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: 🍎 苹果服务
@@ -75,6 +82,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
   - name: 🎯 全球直连
@@ -92,6 +100,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇰🇷 韩国-三网优化2-1C
       - 🇰🇷 韩国-三网优化2-1B
       - 🇰🇷 韩国-三网优化2-1A
 rules:

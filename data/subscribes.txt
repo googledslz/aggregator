@@ -1,1 +1,2 @@
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=7af495a31ed082f6771e6eac037008b6
 https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=e55596290add0d7913b5ebeb5d62b7b8
